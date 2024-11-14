@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(210, 233, 243); */
+}
+body{
+    background-color: #F0F2F5;
+}
+.fb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ .img{
+    display: flex;
+    justify-content: center;
+ }
+ .img img{
+    width: 302.77px;
+    height: 100px;
+ }
+
+.container{
+    display: flex;
+    width: 432px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin-left: 460px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 0px 6px #DEE0E2;
+    margin-bottom: 20px;
+}
+
+.new{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.new h2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+.new p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #606770;
+
+}
+hr{
+    border: 0.5px solid #CCD0D5;
+    
+
+}
+.name{
+    display: flex;
+    margin: 20px 10px 0px 17px;
+}
+
+.name .first{
+    width: 194px;
+    padding: 11px;
+    outline: none;
+    border: 1px solid #CCD0D5;
+    border-radius: 4px;
+
+}
+.name .second{
+    width: 194px;
+    padding: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline: none;
+    border: 1px solid #CCD0D5;
+    border-radius: 4px;
+
+
+
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content2 .mail{
+    width: 399px;
+    padding: 11px;
+    margin-top: 10px;
+    margin-left: 17px;
+    margin-right: 10px;
+    outline: none;
+    border: 1px solid #CCD0D5;
+    border-radius: 4px;
+
+
+
+}
+.content2 .pass{
+    width: 399px;
+    padding: 11px;
+    margin-top: 10px;
+    margin-left: 17px;
+    margin-right: 10px;
+    outline: none;
+    border: 1px solid #CCD0D5;
+    border-radius: 4px;
+}
+.content3 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 10px;
+    
+}
+.content3 p{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size:12px ;
+    color: #606770;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.date-time{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 10px 0px 5px;
+}
+
+.date-time .date{
+    width: 120px;
+    height: 36px;
+    outline: none;
+    border: 1px solid #CCD0D5;
+    color: #606770;
+    border-radius: 4px;
+
+
+}
+.date-time .month{
+    width: 120px;
+    outline: none;
+    height: 36px;
+    border: 1px solid #CCD0D5;
+    color: #606770;
+    border-radius: 4px;
+}
+.date-time .year{
+    outline: none;
+    width: 120px;
+    height: 36px;
+    border: 1px solid #CCD0D5;
+    color: #606770;
+    border-radius: 4px;
+}
+.content4 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 10px;
+    
+}
+.content4 p{
+    margin-left: 10px;
+    font-size:12px ;
+    color: #606770;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 10px 0px 0px;
+}
+.input2 span{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+    height: 36px;
+    outline: none;
+    border: 1px solid #CCD0D5;
+    color: #606770;
+    border-radius: 4px;
+}
+
+.input2 span label{
+    margin-top: 10px;  
+    color: #606770;
+ 
+
+}
+.in2,.in3{
+    margin-left: 5px;
+}
+
+.content5 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 10px;
+}
+.content5 p{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0px 25px 0 10px;
+    color: #777777;
+}
+.content5 p a{
+    text-decoration: none;
+    color: #385898;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+.btn button{
+    width: 194px;
+    height: 36px;
+    background-color: #00A400;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.btn button:hover{
+    background-color: #058505;
+}
+
+.content6{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px ;
+}
+
+.content6 h2{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content6 h2 a{
+    text-decoration: none;
+    color: #1877F2;
+}
+
